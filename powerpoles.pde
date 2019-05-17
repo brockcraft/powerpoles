@@ -70,7 +70,7 @@ void draw() {
   renderNumber=numberOfImages; // renders all of the images. uncomment next line to use mouse interaction instead
   //renderNumber = int(map(mouseY, 0, height, 1, numberOfImages)); // uncomment to use mouse interaction to plot images successively
 
-  selMode=MULTIPLY;  // set render mode explictly (Overrides mouse clicks) comment out to use mouseclick instead
+  selMode=MULTIPLY;  // set render mode explictly (Overrides mouse clicks). Comment out to use mouseclick instead
 
 // blend the images on top of each other
   for (int i=0; i<renderNumber; i++) {
