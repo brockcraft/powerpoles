@@ -6,7 +6,7 @@
  supports writing out a file when the desired view is shown.
  
  The sketch loads image files from the /data folder and mixes them using the BLEND function. Other settings are retained for exploring different kinds of image processing.
- You must have images in the /data subdirectory for it to work.
+ You must have images in the ``/data`` subdirectory for it to work.
  
  * In interactive mode: Mouse Drag vertically to paint the images in sequence
  * Press 's' to save the image file (overwrites existing file!)
